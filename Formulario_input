@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <fieldset>
+            <legend>Formulario de Prueba</legend>
+            <form action="index.html" method="get">
+                <p>Nombre: <input type="text" name="nombre" size="40" /></p>
+                <p>Apellido: <input type="text" name="apellido" size="40" /></p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Escribe tu email" />
+                <p>Numero de Telefono: <input type="number" name="telefono" />
+                </p>
+                <p>
+                    Año de nacimiento: <input type="number" name="nacido" min="1900" />
+                </p>
+                <p>Sexo: <input type="radio" name="hm" value="h" /> Hombre
+                    <input type="radio" name="hm" value="m" /> Mujer
+                </p>
+                <label for="mensaje">Mensaje:</label><BR></BR>
+                <textarea type="mensaje" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                <p>
+                    <input type="submit" value="Enviar" />
+                    <input type="reset" value="Borrar" />
+                </p>
+            </form>
+        </fieldset>
+    </div>
+    <br> <br>
+    <p>Buscador</p>
+    <form action="https://www.bing.com/?setlang=es">
+        <input type="text" name="q" size="31" maxlength="255" value="" />
+        <input type="submit" name="" value="Buscar" />
+    </form>
+</body>
+
+</html>
+
+
+<!--#https://big.dk/#projects-pho-->
